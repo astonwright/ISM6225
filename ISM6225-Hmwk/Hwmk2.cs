@@ -252,7 +252,7 @@ namespace ISM6225_Hmwk
             var ranges = new List<String> { };
             if (nums.Length == 0)
             {
-                AddRange(ranges, lower, upper);
+                AddRange(ranges, lower - 1, upper + 1);
                 return ranges;
             }
 
