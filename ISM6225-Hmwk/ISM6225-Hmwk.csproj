@@ -6,4 +6,12 @@
     <RootNamespace>ISM6225_Hmwk</RootNamespace>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Compile Remove="Hmwk1.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="Hmwk1.cs" />
+  </ItemGroup>
+
 </Project>
